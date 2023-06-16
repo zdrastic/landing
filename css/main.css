@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background-color: yellow;
   width: 100vw;
+  min-width: 800px;
   height: 100vh;
   overflow-x: hidden;
   display: flex;
@@ -84,7 +85,7 @@ body {
 }
 
 .wrapper {
-  width: 500px;
+  width: 800px;
   background-color: cornflowerblue;
 }
 
