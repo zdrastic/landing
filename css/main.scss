@@ -14,11 +14,12 @@ body {
 .wrapper{
 	width: 75%;
 	min-width: $min_width;
-	min-height: 100vh;
-	height: 200vh;
+	height: fit-content;
+	overflow-y:visible;
 	display: flex;
 	flex-direction: column;
 	background-color: aqua;
+	background-repeat: space;
 }
 .header {
 	border-bottom: 5px solid #000;
@@ -108,13 +109,13 @@ body {
 	height: 100%;
 	width: 88px;
 	&:nth-child(1) {
-		background-image: url("/img/telegram.jpg");
+		background-image: url("img/telegram.jpg");
 	}
 	&:nth-child(2) {
-		background-image: url("/img/viber.jpg");
+		background-image: url("img/viber.jpg");
 	}
 	&:nth-child(3) {
-		background-image: url("/img/inst.jpg");
+		background-image: url("img/inst.jpg");
 	}
 	background-repeat: no-repeat;
 }
