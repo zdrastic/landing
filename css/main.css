@@ -185,13 +185,13 @@ body {
   background-repeat: no-repeat;
 }
 .footer__contacts-link:nth-child(1) {
-  background-image: url("img/telegram.jpg");
+  background-image: url("../img/telegram.jpg");
 }
 .footer__contacts-link:nth-child(2) {
-  background-image: url("img/viber.jpg");
+  background-image: url("../img/viber.jpg");
 }
 .footer__contacts-link:nth-child(3) {
-  background-image: url("img/inst.jpg");
+  background-image: url("../img/inst.jpg");
 }
 
 .footer__copyright {

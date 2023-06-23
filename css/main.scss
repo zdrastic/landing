@@ -109,13 +109,13 @@ body {
 	height: 100%;
 	width: 88px;
 	&:nth-child(1) {
-		background-image: url("img/telegram.jpg");
+		background-image: url("../img/telegram.jpg");
 	}
 	&:nth-child(2) {
-		background-image: url("img/viber.jpg");
+		background-image: url("../img/viber.jpg");
 	}
 	&:nth-child(3) {
-		background-image: url("img/inst.jpg");
+		background-image: url("../img/inst.jpg");
 	}
 	background-repeat: no-repeat;
 }
