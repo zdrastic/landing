@@ -1,9 +1,8 @@
 @import "nullstyle.scss";
 $min_width: 800px;
 body {
-	min-width: 700px;
+	min-width: $min_width;
 	height: 100vh;
-	overflow: scroll;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -11,18 +10,17 @@ body {
 	
 }
 .wrapper{
-	width: 75%;
+	width: 100%;
 	min-width: $min_width;
 	height: fit-content;
 	overflow-y:visible;
 	display: flex;
 	flex-direction: column;
-	background-color: aqua;
-	background-repeat: space;
 }
 .header {
 	border-bottom: 5px solid #000;
 	width: 100%;
+	min-width: $min_width;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -58,22 +56,42 @@ body {
 .main {
 	flex: 1 0 auto;
 	width: 100%;
+	min-width: $min_width;
 	height: 100%;
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.my__sector {
+.my__section {
 	border: 2px solid red;
 	width: 100%;
-	flex: 1 1 auto;
+	min-height: 400px;
+	min-width: $min_width;
+	display: flex;
+	flex-direction: row;
 }
-.main__sector-one {
+.section__one {
+	min-height: 400px;
+	height: auto;
 }
-.main__sector-two {
+.section__one-video-container{
+	border: 5px solid black;
 }
-.main__sector-three {
+.video-container{
+	width: 640px; /* или другое значение */
+	height: 480px; /* или другое значение */
+}
+.section__one-description {
+	font-size: 24px;
+	text-align: justify;
+	text-align-last: center;
+	margin: 40px 20px 40px 80px;
+	
+}
+.section__two {
+}
+.section__three {
 }
 .footer {
 	width: 100%;
