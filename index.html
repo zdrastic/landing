@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="/js/script.js" defer></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -33,15 +34,29 @@
 		</header>
 		<main class="main">
 			<section class="section__one my__section">
-				<div class="video-container section__one-video-container"></div>
+				<div class="video-container section__one-video-container">
+					<video width="100%" height="100%" autoplay="autoplay" loop="loop" playsinline="" muted="true" controls>
+						<source src="./img/bulb1.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+					 </video>
+				</div>
 				<div class="section__one-description">
-					"Пузиркова машина" - це популярна дитяча портативна іграшка, яка стала хітом серед 
-					користувачів соціальних мереж. Вона здатна створювати красиві бульбашки та 
-					приносити радість і задоволення. Ця іграшка широко використовується на сценічних 
-					виступах, на весіллях та інших подіях, додаючи романтику та розвагу. Пузиркова 
-					машина має унікальний дизайн і захист від протікання, що дозволяє користувачу
-					 насолоджуватися казковими бульбашками, не хвилюючись про пролиту воду та 
-					 зберігаючи ніжність та захоплюючий ефект.
+					<p class="section__one-description-text">
+						"Пузиркова машина" - це популярна дитяча портативна іграшка, яка стала хітом серед 
+						користувачів соціальних мереж. Вона здатна створювати красиві бульбашки та 
+						приносити радість і задоволення. Ця іграшка широко використовується на сценічних 
+						виступах, на весіллях та інших подіях, додаючи романтику та розвагу. Пузиркова 
+						машина має унікальний дизайн і захист від протікання, що дозволяє користувачу
+						 насолоджуватися казковими бульбашками, не хвилюючись про пролиту воду та 
+						 зберігаючи ніжність та захоплюючий ефект.
+					</p>
+					<button class="add-to-cart-button">Додати в корзину</button>
+					<div id="color-selection-popup">
+						<h3>Выберите цвет товара:</h3>
+						<div class="color-options">
+						  <div class="color-option" style="background-color: red;"></div>
+						  <div class="color-option" style="background-color: blue;"></div>
+						</div>
+					 </div>
 				</div>
 			</section>
 			<section class="section__two my__section">
